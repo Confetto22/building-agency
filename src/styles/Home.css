@@ -1,0 +1,38 @@
+.hero_card {
+  background-image: url("../assets/8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_cover p {
+  font-family: var(--second-font);
+}
+.hero_cover button {
+  font-family: var(--main-font);
+}
+.homepage {
+  font-family: var(--second-font);
+}
+.wedo_container button {
+  /* background: #f3f4f7; */
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 600;
+  left: 100%;
+  line-height: 20px;
+  /* padding: 11px 53px; */
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  text-transform: uppercase;
+  transition: all 300ms ease;
+  z-index: 3;
+  width: 40%;
+}
+.experience_years {
+  font-family: var(--second-font);
+  box-shadow: 0px 0px 6px 2px rgb(79, 79, 79);
+  max-width: 300px;
+}
